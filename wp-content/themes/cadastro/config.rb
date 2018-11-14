@@ -5,5 +5,5 @@ sass_dir = "assets/sass"
 css_dir = "assets/css"
 imagens_dir = "assets/img"
 javascripts_dir = "assets/js"
-
-# output_style = :compressed
+output_style = :compressed
+#output_style = :compressed
