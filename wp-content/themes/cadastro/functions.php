@@ -12,9 +12,11 @@
 		/* Registering style */
 		wp_register_style('appcss', CSS . '/app.css', array(), $versao, false );
 		wp_register_script('material', NODE . '/materialize-css/dist/js/materialize.min.js', array('jquery'), $versao);
+		wp_register_script('maskjs', NODE . '/mask/lib/mask.js', array(), $versao);
 
 		wp_enqueue_style('appcss');
 		wp_enqueue_script('material');
+		wp_enqueue_script('maskjs');
 				
 		
 	}
